@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-marketplace-commerce-analytics`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-commerce-analytics/v/3.808.0).
+[`@aws-sdk/client-marketplace-commerce-analytics`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-commerce-analytics/v/3.810.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.808.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.810.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-JUQMtvZKVsXB4uzhzeB6GmUPEnMh0LoDaJmn4NxE4i6Zt3Do96l1TNwdfaRcqB8j
+sha384-rD8DCcasIPWLcEo9wRisLs+7wGHfC4Ia/Ol3Yrm8nGMcM8uCwHc2Q/NCGcW9b6pD
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-marketplace-commerce-analytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.808.0/index.min.mjs"
+            "@aws-sdk/client-marketplace-commerce-analytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.810.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.808.0/index.min.mjs": "sha384-JUQMtvZKVsXB4uzhzeB6GmUPEnMh0LoDaJmn4NxE4i6Zt3Do96l1TNwdfaRcqB8j"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.810.0/index.min.mjs": "sha384-rD8DCcasIPWLcEo9wRisLs+7wGHfC4Ia/Ol3Yrm8nGMcM8uCwHc2Q/NCGcW9b6pD"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-marketplace-commerce-analytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.808.0/index.min.mjs"
+                        "@aws-sdk/client-marketplace-commerce-analytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.810.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.808.0/index.min.mjs": "sha384-JUQMtvZKVsXB4uzhzeB6GmUPEnMh0LoDaJmn4NxE4i6Zt3Do96l1TNwdfaRcqB8j"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-commerce-analytics@3.810.0/index.min.mjs": "sha384-rD8DCcasIPWLcEo9wRisLs+7wGHfC4Ia/Ol3Yrm8nGMcM8uCwHc2Q/NCGcW9b6pD"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.808.0`)
+* Always pin to a specific version (`@3.810.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-marketplace-commerce-analytics/blob/refs/tags/3.808.0/LICENSE
+https://github.com/cloud-sdk-builds/client-marketplace-commerce-analytics/blob/refs/tags/3.810.0/LICENSE
 ```
 
 ---
